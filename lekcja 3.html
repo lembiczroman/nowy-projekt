@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Formularz</title>
+  </head>
+  <body>
+    <form>
+      <label for="name">Wpisz swoję Imię</label>
+      <input type="text" name="name" id="name" placeholder="Wpisz imię" />
+      <label for="email">Wpisz swój adres email</label>
+      <input
+        type="email"
+        name="name"
+        id="email"
+        placeholder="default@email.com"
+      />
+      <label for="password">Wpisz swoje hasło</label>
+      <input type="password" name="password" id="password" />
+      <label for="age">Ile masz lat ?</label><br />
+      <label for="option_1">24</label>
+      <input type="radio" name="age" id="option_1" value="24" />
+      <label for="option_2">30</label>
+      <input type="radio" name="age" id="option_2" value="30" />
+      <label for="option_3">35</label>
+      <input type="radio" name="age" id="option_3" value="35" /><br />
+      <label for="color">Jakiego koloru masz włosy</label>
+      <select name="color" id="color">
+        <option value="brąz">brąz</option>
+        <option value="zielone">zielone</option>
+        <option value="białe">białe</option></select
+      ><br />
+      <label for="letter">Wpisz swoją wiadomość</label>
+      <textarea
+        name="letter"
+        id="letter"
+        cols="40"
+        rows="10"
+        placeholder="nie pisz bzdór kutasie"
+      ></textarea>
+
+      <input type="submit" value="Wyslij" />
+    </form>
+  </body>
+</html>
